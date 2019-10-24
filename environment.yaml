@@ -1,0 +1,10 @@
+name: dask
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dask=2.5.2
+  - dask-xgboost=0.1.9
+  - distributed=2.5.1+20.gc2cc1a98
+  - python=3.6.7
+  - xgboost=0.90
